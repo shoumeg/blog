@@ -16,6 +16,7 @@ public class otherServlet extends HttpServlet{
 			HttpServletResponse response)
 	throws ServletException,IOException{
 		System.out.println("service...");
+		System.out.println("service...");
 		ServletConfig config=getServletConfig();
 		System.out.println(config.getInitParameter("company"));
 	}
