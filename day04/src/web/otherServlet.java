@@ -10,6 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 
 public class otherServlet extends HttpServlet{
 	public otherServlet(){
+		
+		
+		
 			System.out.println("otherServlet constructor...");
 		}
 	public void service(HttpServletRequest request,
